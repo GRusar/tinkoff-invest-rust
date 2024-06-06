@@ -14,6 +14,8 @@ use tonic::{
     Status,
 };
 
+#[path = "google.api.rs"]
+pub mod google_api;
 pub mod tcs;
 
 #[derive(Debug)]
